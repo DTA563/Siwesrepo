@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    padding: 50px;
+    background-color: #39d709;
+    width: 100%;
+}
+ 
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    background: whitesmoke;
+    padding: 20px;
+    width: 20%;
+    height: 465px;
+}
+
+.center{
+    background: white;
+    padding: 0;
+    width: 60%;
+    height: 465px;
+}
+
+.right{
+    background: whitesmoke;
+    padding: 20px;
+    width: 20%;
+    height: 465px;
+}
+
+.bottom{
+    padding: 50px;
+    background-color: #39d709;
+    width: 100%;
+}
+
