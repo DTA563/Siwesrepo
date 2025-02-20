@@ -7,7 +7,7 @@ body{
     background-color: white;
     margin: 0 auto;
     width: 80%;
-    height: 100vw;
+    height: 100%;
     position: relative;
 }
 
@@ -34,11 +34,10 @@ nav > ul{
     list-style: none;
 }
 
-/* .right-side-bar{
-    position: absolute;
-    right: 0%;
-} */
-
+nav > ul > a{
+    text-decoration: none;
+    color: white;
+}
 
 .container{
     display: flex;
@@ -119,10 +118,12 @@ article > img{
 
 footer{
     text-align: center;
-    position: absolute;
-    bottom: 0%;
     background-color: black;
     color: white;
     padding: 1.5rem 0;
     width: 100%;
+}
+
+hr{
+    opacity: .2;
 }
