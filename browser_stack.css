@@ -124,3 +124,112 @@ main{
 .btn p:nth-child(2):hover a{
     color: #fff;
 }
+
+.body1 h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #0171f0;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(90deg, #ebe8fe, #dff3ff);
+    border-radius: 0 10px 10px 0;
+    margin-left: 10px;
+    padding: 0 20px;
+}
+
+.line{
+    border: 1px solid #00000035;
+    margin: 20px 5px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card-header{
+    display: flex;
+    white-space: nowrap;
+    margin: 15px 0;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 250px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.card p{
+    color: #333232a5;
+    font-weight: 600;
+}
+
+.card i{
+    background: linear-gradient(90deg, #7794fe, #ac93ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.148), -5px -5px 10px 5px rgba(0, 0, 0, 0.192);
+    border: 1px solid #0171f0;
+}
+
+.left-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+    background: linear-gradient(90deg, #ebe8fe, #dff3ff);
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.left-sidebar a{
+    color: #333232;
+    text-decoration: none;
+}
+
+.left-sidebar div{
+    margin-bottom: 30px;
+}
+
+.left-sidebar div:hover{
+    border: 1px solid #0171f0;
+    padding: 10px;
+}
+
+.left-sidebar div:hover h3{
+    background: linear-gradient(90deg, #7794fe, #ac93ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body1-end{
+    margin: 40px 0 20px 0;
+}
