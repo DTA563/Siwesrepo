@@ -531,3 +531,100 @@ main{
     background-color: #004f80;
     border: 1px solid transparent;
 }
+
+.body5{
+    background: linear-gradient(90deg, #37288b  , #3264c8);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.testimonial-section{
+    font-size: 28px;
+    line-height: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testimonial-section i:first-of-type{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 390px;
+    color: #ffffff4b;
+}
+
+.testimonial-section i:last-of-type{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 1080px;
+    color: #ffffff4b;
+}
+
+.body6{
+    background-color: #f9fbfd;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 70px 0;
+}
+
+.profile{
+    margin-right: 50px;
+    text-align: center;
+}
+
+.profile-image{
+    background: linear-gradient(90deg, #3264c8, #2c2f99);
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.space{
+    margin-left: 20px;
+}
+
+.profile h4{
+    margin: 10px 0 5px;
+    font-size: 1em;
+    color: black;
+}
+
+.profile p{
+    font-size: 0.9em;
+    color: gray;
+}
+
+.body6-btn{
+    margin-top: 30px;
+}
+
+.body6-btn button{
+    font-size: 15px;
+    padding: 20px 70px;
+    border: 1px solid #0171f0;
+    border-radius: 7px;
+    color: #0171f0;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.body6-btn button:hover{
+    background-color: #004f80;
+    color: white;
+    border: 1px solid transparent;
+}
