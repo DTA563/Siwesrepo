@@ -136,11 +136,12 @@ main{
 
 .container1{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     border: 1px solid #0171f0;
     border-radius: 10px;
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 20px;
+    /* width: 1200px; */
 }
 
 .card-content{
@@ -148,29 +149,32 @@ main{
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(90deg, #ebe8fe, #dff3ff);
+    /* width: auto; */
     border-radius: 0 10px 10px 0;
     margin-left: 10px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .line{
+    display: flex;
+    flex-direction: row;
     border: 1px solid #00000035;
     margin: 20px 5px;
     flex-grow: 1;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .card-header{
     display: flex;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     margin: 15px 0;
 }
 
 .card-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .card{
@@ -179,8 +183,8 @@ main{
     font-size: 12px;
     padding: 5px;
     margin: 5px;
-    max-width: 250px;
-    min-width: 200px;
+    /* max-width: 250px;
+    min-width: 200px; */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-bottom: 30px;
 }
@@ -300,7 +304,9 @@ main{
 
 .body3 h2{
     margin: 65px 0 50px 0;
-    font-size: 50px;
+    font-size: 3rem;
+    word-break: break-all;
+    line-height: 1;
 }
 
 .body3 p{
@@ -316,7 +322,7 @@ main{
 }
 
 .logo-text{
-    height: 40px;
+    min-height: 40px;
     background-color: #fff;
     border: 1px solid #d4dfe8;
     border-radius: 20px;
@@ -338,8 +344,8 @@ main{
 .image-logo{
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     background-color: #fff;
     border: 1px solid #d4dfe8;
     border-radius: 10px;
@@ -376,8 +382,10 @@ main{
 
 .body4-head h2{
     margin-bottom: 50px;
-    font-size: 50px;
     text-align: center;
+    font-size: 3rem;
+    word-break: break-all;
+    line-height: 1;
 }
 
 .body4-head p{
@@ -641,13 +649,17 @@ main{
 }
 
 .body7 h2{
-    font-size: 50px;
+    font-size: 3rem;
+    word-break: break-all;
+    line-height: 1;
     margin-bottom: 45px;
     color: #333232;
 }
 
 .body7 p{
-    font-size: 25px;
+    font-size: 1.8rem;
+    word-break: break-all;
+    line-height: 1;
     margin-bottom: 50px;
     color: #676766;
 }
@@ -748,10 +760,6 @@ footer > .line{
     margin-right: 30px;
 }
 
-.more .links{
-    margin-left: 73px;
-}
-
 .more a{
     text-decoration: none;
     color: #ffffff9d;
@@ -795,7 +803,113 @@ footer > .line{
     .header-desktop{
         display: none;
     }
+
     .header-mobile{
         display: flex;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-sidebar{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        width: 100%;
+        justify-content: center;
+        background: #fff;
+    }
+
+    .left-sidebar p{
+        display: none;
+    }
+
+    .left-sidebar div{
+        margin: 0 50px;
+    }
+    
+    .card-content{
+        display: flex;
+        justify-content: left;
+        /* width: 500px; */
+        flex-wrap: wrap;
+    }
+
+    .card-container{
+        display: flex;
+        justify-content: left;
+        width: auto;
+    }
+
+    .body1-end{
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits{
+        margin-bottom: 30px;
+    }
+
+    .image-logo-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .body4-btn button{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .body4-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .products{
+        margin-bottom: 30px;
+    }
+
+    .socials{
+        margin-top: 20px;
+    }
+
+    .more{
+        display: flex;
+        /* align-items: center; */
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .footer-container3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-container3 .links{
+        margin-top: 10px;
     }
 }
